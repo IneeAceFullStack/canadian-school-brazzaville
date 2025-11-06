@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { @apply font-sans text-gray-800 bg-white; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold py-2.5 px-5 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-700 font-semibold py-2.5 px-5 rounded-lg border border-gray-300 transition-all duration-200 hover:border-gray-400 active:scale-95;
+  }
+  .btn-outline {
+    @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white font-semibold py-2.5 px-5 rounded-lg transition-all duration-200 active:scale-95;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6;
+  }
+  .input-field {
+    @apply w-full px-4 py-2.5 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all;
+  }
+  .badge-red    { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800; }
+  .badge-green  { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800; }
+  .badge-yellow { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800; }
+  .badge-blue   { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800; }
+  .badge-gray   { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800; }
+  .section-header {
+    @apply text-center mb-12;
+  }
+  .section-header h2 {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-3;
+  }
+  .section-header p {
+    @apply text-gray-500 text-lg max-w-2xl mx-auto;
+  }
+  .page-hero {
+    @apply bg-gradient-to-br from-primary-700 via-primary-600 to-primary-800 text-white py-20 px-4;
+  }
+}
+
+@layer utilities {
+  .text-gradient { background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+}
+# 2025-11-06T14:28:00 - chore: configuration TailwindCSS et PostCSS
+# 2025-12-15T09:00:00 - style: palette de couleurs - rouge primaire #CC0000
+# 2026-05-22T10:15:00 - style: uniformisation des marges et espacements
+# 2025-11-06T14:28:00 - chore: configuration TailwindCSS et PostCSS
+# 2025-12-15T09:00:00 - style: palette de couleurs - rouge primaire #CC0000
+# 2026-05-22T10:15:00 - style: uniformisation des marges et espacements
+# 2025-11-06T14:28:00 - chore: configuration TailwindCSS et PostCSS
+# 2025-12-15T09:00:00 - style: palette de couleurs - rouge primaire #CC0000
+# 2026-05-22T10:15:00 - style: uniformisation des marges et espacements
+# 2025-11-06T14:28:00 - chore: configuration TailwindCSS et PostCSS
