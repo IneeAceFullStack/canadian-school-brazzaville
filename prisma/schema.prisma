@@ -30,3 +30,4 @@
 # 2026-06-01T10:00:00 - fix: correction du schema Prisma - enum StatutPaiement
 # 2025-11-08T11:15:00 - feat: configuration Prisma et connexion PostgreSQL
 # 2025-11-08T16:40:00 - feat: schema initial - modeles User et Session
+# 2025-11-09T09:30:00 - feat: modele Student avec champs identite et scolarite
