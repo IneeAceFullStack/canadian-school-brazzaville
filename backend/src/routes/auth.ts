@@ -107,3 +107,4 @@ export default router
 # 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
 # 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
 # 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
+# 2025-11-14T10:20:00 - feat: route /me et changement de mot de passe
