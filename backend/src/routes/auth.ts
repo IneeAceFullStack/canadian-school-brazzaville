@@ -108,3 +108,4 @@ export default router
 # 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
 # 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
 # 2025-11-14T10:20:00 - feat: route /me et changement de mot de passe
+# 2025-11-15T09:00:00 - fix: le token JWT n'incluait pas le role utilisateur
