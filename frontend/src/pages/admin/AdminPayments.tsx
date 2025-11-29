@@ -222,3 +222,4 @@ export default function AdminPayments() {
 # 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
 # 2026-06-07T10:15:00 - fix: correction de l'affichage des montants en FCFA
 # 2025-11-28T14:30:00 - feat: generation de recu PDF avec jsPDF
+# 2025-11-29T10:00:00 - fix: le PDF generait une erreur si la reference etait vide
