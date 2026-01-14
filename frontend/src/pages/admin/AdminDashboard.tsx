@@ -159,3 +159,4 @@ export default function AdminDashboard() {
 # 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
 # 2025-12-10T11:30:00 - feat: statistiques dashboard admin - eleves, paiements, inscriptions
 # 2025-12-11T09:45:00 - feat: graphique encaissements mensuels avec Recharts
+# 2026-01-14T11:00:00 - style: amelioration du dashboard admin - cartes de stats
