@@ -15,3 +15,4 @@ export const errorHandler = (err: Error, _req: Request, res: Response, _next: Ne
 # 2025-11-17T16:30:00 - feat: gestionnaire d'erreurs global
 # 2026-02-02T10:15:00 - refactor: amelioration des messages d'erreur API
 # 2025-11-17T16:30:00 - feat: gestionnaire d'erreurs global
+# 2026-02-02T10:15:00 - refactor: amelioration des messages d'erreur API
