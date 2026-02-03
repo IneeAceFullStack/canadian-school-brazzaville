@@ -197,3 +197,4 @@ export default function AdminStudents() {
 # 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
 # 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
 # 2025-11-21T10:30:00 - feat: CRUD eleves - creation, liste et recherche
+# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin

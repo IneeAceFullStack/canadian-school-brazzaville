@@ -223,3 +223,4 @@ export default function AdminPayments() {
 # 2026-06-07T10:15:00 - fix: correction de l'affichage des montants en FCFA
 # 2025-11-28T14:30:00 - feat: generation de recu PDF avec jsPDF
 # 2025-11-29T10:00:00 - fix: le PDF generait une erreur si la reference etait vide
+# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
