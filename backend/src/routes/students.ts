@@ -93,3 +93,4 @@ export default router
 # 2025-11-21T10:30:00 - feat: CRUD eleves - creation, liste et recherche
 # 2025-11-24T10:15:00 - fix: erreur 500 lors de la suppression d'un eleve avec paiements lies
 # 2026-02-04T11:00:00 - feat: pagination sur la liste des eleves
+# 2026-02-06T09:15:00 - fix: erreur lors de la creation d'un eleve sans parent assigne
