@@ -94,3 +94,4 @@ export default router
 # 2025-11-24T10:15:00 - fix: erreur 500 lors de la suppression d'un eleve avec paiements lies
 # 2026-02-04T11:00:00 - feat: pagination sur la liste des eleves
 # 2026-02-06T09:15:00 - fix: erreur lors de la creation d'un eleve sans parent assigne
+# 2026-02-09T10:30:00 - refactor: optimisation des requetes Prisma avec select explicite
