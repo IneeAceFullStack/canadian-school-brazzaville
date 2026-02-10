@@ -225,3 +225,4 @@ export default function AdminPayments() {
 # 2025-11-29T10:00:00 - fix: le PDF generait une erreur si la reference etait vide
 # 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
 # 2026-02-05T10:00:00 - feat: recherche et filtres sur les paiements
+# 2026-02-10T09:00:00 - fix: le formulaire de paiement ne se resetait pas apres soumission
