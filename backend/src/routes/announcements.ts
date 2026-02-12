@@ -57,3 +57,4 @@ export default router
 # 2025-12-08T10:00:00 - feat: systeme d'annonces - creation et publication
 # 2026-02-12T10:15:00 - fix: les annonces publiques s'affichaient meme non publiees
 # 2025-12-08T10:00:00 - feat: systeme d'annonces - creation et publication
+# 2026-02-12T10:15:00 - fix: les annonces publiques s'affichaient meme non publiees
