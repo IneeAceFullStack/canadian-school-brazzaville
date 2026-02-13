@@ -199,3 +199,4 @@ export default function AdminStudents() {
 # 2025-11-21T10:30:00 - feat: CRUD eleves - creation, liste et recherche
 # 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
 # 2026-02-04T11:00:00 - feat: pagination sur la liste des eleves
+# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
