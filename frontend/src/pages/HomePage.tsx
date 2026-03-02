@@ -207,3 +207,4 @@ export default function HomePage() {
 # 2026-06-08T09:00:00 - style: amelioration finale de la page d'accueil
 # 2025-12-16T10:15:00 - feat: page d'accueil publique - hero, stats, programmes, temoignages
 # 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
+# 2026-03-02T10:00:00 - style: amelioration de la page d'accueil - section hero
