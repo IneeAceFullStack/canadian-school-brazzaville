@@ -253,3 +253,4 @@ export default function VieScolairePage() {
 # 2025-12-19T10:00:00 - feat: page Vie scolaire - activites parascolaires et infrastructures
 # 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
 # 2026-03-04T11:30:00 - feat: cartes activites et infrastructures cliquables avec modal detail
+# 2026-03-05T10:00:00 - fix: le modal ne se fermait pas en cliquant en dehors

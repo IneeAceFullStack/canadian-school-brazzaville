@@ -215,3 +215,4 @@ export default function AboutPage() {
 # 2025-12-17T09:30:00 - feat: page A propos - histoire, valeurs, equipe de direction
 # 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
 # 2026-03-03T09:15:00 - feat: cartes membres equipe cliquables avec modal biographie
+# 2026-03-05T10:00:00 - fix: le modal ne se fermait pas en cliquant en dehors
