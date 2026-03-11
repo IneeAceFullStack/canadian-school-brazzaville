@@ -116,3 +116,4 @@ export default function StudentGrades() {
 # 2025-12-05T09:30:00 - feat: page notes de l'eleve avec moyenne par trimestre
 # 2026-03-11T14:30:00 - fix: la moyenne calculee ne prenait pas en compte le coefficient
 # 2025-12-05T09:30:00 - feat: page notes de l'eleve avec moyenne par trimestre
+# 2026-03-11T14:30:00 - fix: la moyenne calculee ne prenait pas en compte le coefficient
