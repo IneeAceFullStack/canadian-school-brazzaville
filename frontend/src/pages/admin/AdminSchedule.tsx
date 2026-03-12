@@ -175,3 +175,4 @@ export default function AdminSchedule() {
 # 2025-12-03T09:00:00 - feat: emploi du temps - creation et affichage par classe
 # 2026-03-12T10:00:00 - style: amelioration de l'emploi du temps - affichage par jour
 # 2025-12-03T09:00:00 - feat: emploi du temps - creation et affichage par classe
+# 2026-03-12T10:00:00 - style: amelioration de l'emploi du temps - affichage par jour
