@@ -226,3 +226,4 @@ export default function AdminPayments() {
 # 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
 # 2026-02-05T10:00:00 - feat: recherche et filtres sur les paiements
 # 2026-02-10T09:00:00 - fix: le formulaire de paiement ne se resetait pas apres soumission
+# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
