@@ -103,3 +103,4 @@ export const contactAPI = {
 # 2026-04-08T14:15:00 - refactor: utilitaires formatDate et formatMontant
 # 2025-12-13T14:30:00 - refactor: extraction du client Axios dans un service API centralise
 # 2026-03-09T10:15:00 - refactor: reorganisation des types TypeScript
+# 2026-04-08T14:15:00 - refactor: utilitaires formatDate et formatMontant
