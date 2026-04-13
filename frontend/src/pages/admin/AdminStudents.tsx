@@ -202,3 +202,4 @@ export default function AdminStudents() {
 # 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
 # 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
 # 2026-04-09T10:00:00 - fix: les dates s'affichaient en format ISO dans les tableaux
+# 2026-04-13T11:00:00 - feat: affichage du solde restant du par eleve
