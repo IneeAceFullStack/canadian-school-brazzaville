@@ -76,3 +76,4 @@ export default app
 # 2025-11-17T10:45:00 - feat: serveur Express - middleware, CORS, Helmet, rate limiting
 # 2026-05-05T09:15:00 - feat: rate limiting sur les routes d'authentification
 # 2026-05-06T11:00:00 - refactor: centralisation de la configuration dans index.ts
+# 2026-05-07T10:30:00 - fix: CORS bloquait les requetes du frontend en developpement
