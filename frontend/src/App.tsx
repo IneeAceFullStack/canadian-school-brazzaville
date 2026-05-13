@@ -97,3 +97,4 @@ export default function App() {
 # 2026-01-12T10:00:00 - refactor: routage centralise dans App.tsx avec protection des routes
 # 2026-05-13T11:00:00 - feat: protection des routes privees - redirection si non connecte
 # 2026-01-12T10:00:00 - refactor: routage centralise dans App.tsx avec protection des routes
+# 2026-05-13T11:00:00 - feat: protection des routes privees - redirection si non connecte
