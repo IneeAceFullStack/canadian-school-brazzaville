@@ -166,3 +166,4 @@ export default function AdminGrades() {
 # 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
 # 2025-12-01T09:20:00 - feat: gestion des notes par matiere et trimestre
 # 2026-03-10T09:00:00 - style: amelioration du tableau des notes - colonnes et filtres
+# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs

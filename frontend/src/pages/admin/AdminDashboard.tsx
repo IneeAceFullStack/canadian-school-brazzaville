@@ -161,3 +161,4 @@ export default function AdminDashboard() {
 # 2025-12-11T09:45:00 - feat: graphique encaissements mensuels avec Recharts
 # 2026-01-14T11:00:00 - style: amelioration du dashboard admin - cartes de stats
 # 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
+# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs

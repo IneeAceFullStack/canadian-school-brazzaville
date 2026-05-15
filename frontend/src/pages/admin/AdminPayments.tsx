@@ -228,3 +228,4 @@ export default function AdminPayments() {
 # 2026-02-10T09:00:00 - fix: le formulaire de paiement ne se resetait pas apres soumission
 # 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
 # 2026-04-14T10:00:00 - fix: le filtre par statut de paiement ne fonctionnait pas
+# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs

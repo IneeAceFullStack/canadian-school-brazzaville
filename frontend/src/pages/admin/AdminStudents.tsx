@@ -203,3 +203,4 @@ export default function AdminStudents() {
 # 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
 # 2026-04-09T10:00:00 - fix: les dates s'affichaient en format ISO dans les tableaux
 # 2026-04-13T11:00:00 - feat: affichage du solde restant du par eleve
+# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
