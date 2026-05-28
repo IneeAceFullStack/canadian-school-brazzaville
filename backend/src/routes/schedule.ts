@@ -49,3 +49,4 @@ export default router
 # 2025-12-03T09:00:00 - feat: emploi du temps - creation et affichage par classe
 # 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
 # 2025-12-03T09:00:00 - feat: emploi du temps - creation et affichage par classe
+# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles

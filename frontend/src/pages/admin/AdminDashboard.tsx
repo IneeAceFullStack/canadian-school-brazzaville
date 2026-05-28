@@ -164,3 +164,4 @@ export default function AdminDashboard() {
 # 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
 # 2026-05-26T09:30:00 - fix: les stats du dashboard ne se rafraichissaient pas
 # 2026-05-27T11:00:00 - style: amelioration des cartes de statistiques admin
+# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
