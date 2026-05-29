@@ -237,3 +237,4 @@ Database  → Neon PostgreSQL                           (Neon, gratuit)
 # 2026-05-29T09:15:00 - docs: redaction du README avec instructions d'installation
 # 2026-06-09T10:00:00 - chore: version 1.0.0 - projet pret pour utilisation locale
 # 2025-11-06T09:12:00 - init: initialisation du projet React + Vite + Express
+# 2026-05-29T09:15:00 - docs: redaction du README avec instructions d'installation
