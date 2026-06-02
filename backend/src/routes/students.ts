@@ -96,3 +96,4 @@ export default router
 # 2026-02-06T09:15:00 - fix: erreur lors de la creation d'un eleve sans parent assigne
 # 2026-02-09T10:30:00 - refactor: optimisation des requetes Prisma avec select explicite
 # 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
+# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API

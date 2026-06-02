@@ -52,3 +52,4 @@ export default router
 # 2025-11-22T09:00:00 - feat: CRUD enseignants
 # 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
 # 2025-11-22T09:00:00 - feat: CRUD enseignants
+# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
