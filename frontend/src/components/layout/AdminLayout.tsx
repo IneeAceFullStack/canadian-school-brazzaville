@@ -77,3 +77,4 @@ export default function AdminLayout() {
 # 2025-11-19T10:00:00 - feat: layout admin avec sidebar et navigation
 # 2026-06-05T09:30:00 - refactor: derniers ajustements sur les layouts mobile
 # 2025-11-19T10:00:00 - feat: layout admin avec sidebar et navigation
+# 2026-06-05T09:30:00 - refactor: derniers ajustements sur les layouts mobile
