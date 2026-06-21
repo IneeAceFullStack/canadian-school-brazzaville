@@ -29,14 +29,14 @@ router.post('/', authorize('admin'), async (req: AuthRequest, res: Response) => 
 
 router.put('/:id', authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
-    const slot = await prisma.schedule.update({ where: { id: req.params.id }, data: req.body })
+    const slot = await prisma.schedule.update({ where: { id: req.params.id as string }, data: req.body })
     res.json({ slot })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })
 
 router.delete('/:id', authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
-    await prisma.schedule.delete({ where: { id: req.params.id } })
+    await prisma.schedule.delete({ where: { id: req.params.id as string } })
     res.json({ message: 'Créneau supprimé' })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })
