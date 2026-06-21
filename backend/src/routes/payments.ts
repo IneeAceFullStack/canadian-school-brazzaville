@@ -35,7 +35,7 @@ router.put('/:id/confirm', authorize('admin'), async (req: AuthRequest, res: Res
   try {
     const { modePaiement, reference } = req.body
     const payment = await prisma.payment.update({
-      where: { id: req.params.id },
+      where: { id: req.params.id as string },
       data: {
         statut: 'confirme',
         modePaiement,
@@ -51,7 +51,7 @@ router.put('/:id/confirm', authorize('admin'), async (req: AuthRequest, res: Res
 router.put('/:id/refuse', authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
     const payment = await prisma.payment.update({
-      where: { id: req.params.id },
+      where: { id: req.params.id as string },
       data: { statut: 'refuse' },
     })
     res.json({ payment, message: 'Paiement refusé' })

@@ -49,14 +49,14 @@ router.post('/bulk', authorize('admin', 'teacher'), async (req: AuthRequest, res
 
 router.put('/:id', authorize('admin', 'teacher'), async (req: AuthRequest, res: Response) => {
   try {
-    const grade = await prisma.grade.update({ where: { id: req.params.id }, data: req.body })
+    const grade = await prisma.grade.update({ where: { id: req.params.id as string }, data: req.body })
     res.json({ grade })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })
 
 router.delete('/:id', authorize('admin', 'teacher'), async (req: AuthRequest, res: Response) => {
   try {
-    await prisma.grade.delete({ where: { id: req.params.id } })
+    await prisma.grade.delete({ where: { id: req.params.id as string } })
     res.json({ message: 'Note supprimée' })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })

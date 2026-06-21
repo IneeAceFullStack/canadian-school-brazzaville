@@ -37,14 +37,14 @@ router.post('/', authenticate, authorize('admin'), async (req: AuthRequest, res:
 
 router.put('/:id', authenticate, authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
-    const announcement = await prisma.announcement.update({ where: { id: req.params.id }, data: req.body })
+    const announcement = await prisma.announcement.update({ where: { id: req.params.id as string }, data: req.body })
     res.json({ announcement })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })
 
 router.delete('/:id', authenticate, authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
-    await prisma.announcement.delete({ where: { id: req.params.id } })
+    await prisma.announcement.delete({ where: { id: req.params.id as string } })
     res.json({ message: 'Annonce supprimée' })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })

@@ -27,7 +27,7 @@ router.get('/', authenticate, authorize('admin'), async (_req: AuthRequest, res:
 
 router.put('/:id/read', authenticate, authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
-    await prisma.contactMessage.update({ where: { id: req.params.id }, data: { lu: true } })
+    await prisma.contactMessage.update({ where: { id: req.params.id as string }, data: { lu: true } })
     res.json({ message: 'Marqué comme lu' })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })

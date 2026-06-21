@@ -28,7 +28,7 @@ router.get('/', async (req: AuthRequest, res: Response) => {
 router.get('/:id', async (req: AuthRequest, res: Response) => {
   try {
     const student = await prisma.student.findUnique({
-      where: { id: req.params.id },
+      where: { id: req.params.id as string },
       include: { parent: true, grades: { include: { teacher: true } }, payments: true },
     })
     if (!student) { res.status(404).json({ error: 'Élève non trouvé' }); return }
@@ -45,14 +45,14 @@ router.post('/', authorize('admin'), async (req: AuthRequest, res: Response) => 
 
 router.put('/:id', authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
-    const student = await prisma.student.update({ where: { id: req.params.id }, data: req.body })
+    const student = await prisma.student.update({ where: { id: req.params.id as string }, data: req.body })
     res.json({ student })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })
 
 router.delete('/:id', authorize('admin'), async (req: AuthRequest, res: Response) => {
   try {
-    await prisma.student.delete({ where: { id: req.params.id } })
+    await prisma.student.delete({ where: { id: req.params.id as string } })
     res.json({ message: 'Élève supprimé' })
   } catch { res.status(500).json({ error: 'Erreur serveur' }) }
 })

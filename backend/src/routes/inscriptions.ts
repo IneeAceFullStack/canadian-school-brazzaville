@@ -56,7 +56,7 @@ router.put('/:id/status', authenticate, authorize('admin'), async (req: AuthRequ
   try {
     const { statut, notes } = req.body
     const inscription = await prisma.inscription.update({
-      where: { id: req.params.id },
+      where: { id: req.params.id as string },
       data: { statut, notes },
     })
     res.json({ inscription })
