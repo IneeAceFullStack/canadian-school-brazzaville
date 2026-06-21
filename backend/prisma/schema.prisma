@@ -1,0 +1,284 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  admin
+  teacher
+  student
+  parent
+}
+
+enum Sexe {
+  M
+  F
+}
+
+enum StatutEtudiant {
+  actif
+  inactif
+  diplome
+  exclu
+}
+
+enum StatutPaiement {
+  en_attente
+  confirme
+  refuse
+  rembourse
+}
+
+enum TypePaiement {
+  inscription
+  reinscription
+  frais_scolaires
+  cantine
+  transport
+  activites
+  autre
+}
+
+enum Trimestre {
+  T1
+  T2
+  T3
+}
+
+enum NiveauClasse {
+  Maternelle_PS
+  Maternelle_MS
+  Maternelle_GS
+  CP
+  CE1
+  CE2
+  CM1
+  CM2
+  Sixieme
+  Cinquieme
+  Quatrieme
+  Troisieme
+  Seconde
+  Premiere
+  Terminale
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      Role     @default(student)
+  avatar    String?
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  teacher       Teacher?
+  student       Student?
+  announcements Announcement[]
+  sessions      Session[]
+
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model Parent {
+  id           String    @id @default(cuid())
+  nom          String
+  prenom       String
+  telephone    String
+  email        String?
+  adresse      String?
+  lienParente  String
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  students     Student[]
+
+  @@map("parents")
+}
+
+model Student {
+  id             String         @id @default(cuid())
+  idVie          String         @unique
+  nomComplet     String
+  dateNaissance  DateTime
+  lieuNaissance  String
+  sexe           Sexe
+  nationalite    String         @default("Congolaise")
+  classeActuelle String
+  anneeScolaire  String
+  specialites    String[]       @default([])
+  statut         StatutEtudiant @default(actif)
+  photo          String?
+  parentId       String?
+  userId         String?        @unique
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  parent       Parent?       @relation(fields: [parentId], references: [id])
+  user         User?         @relation(fields: [userId], references: [id])
+  grades       Grade[]
+  payments     Payment[]
+  inscriptions Inscription[]
+
+  @@map("students")
+}
+
+model Teacher {
+  id         String   @id @default(cuid())
+  nom        String
+  prenom     String
+  email      String   @unique
+  telephone  String?
+  matieres   String[]
+  classes    String[]
+  experience String?
+  statut     String   @default("actif")
+  photo      String?
+  userId     String?  @unique
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  user      User?      @relation(fields: [userId], references: [id])
+  grades    Grade[]
+  schedules Schedule[]
+
+  @@map("teachers")
+}
+
+model Inscription {
+  id               String   @id @default(cuid())
+  type             String
+  anneeScolaire    String
+  classeDemanee    String
+  specialites      String[] @default([])
+  nomEleve         String
+  prenomEleve      String
+  dateNaissance    DateTime
+  lieuNaissance    String
+  sexe             String
+  nationalite      String
+  nomPere          String?
+  prenomPere       String?
+  professionPere   String?
+  nomMere          String?
+  prenomMere       String?
+  professionMere   String?
+  telephoneContact String
+  emailContact     String?
+  adresse          String?
+  ancienneEcole    String?
+  classeActuelle   String?
+  statut           String   @default("en_attente")
+  notes            String?
+  studentId        String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  student Student? @relation(fields: [studentId], references: [id])
+  payment Payment?
+
+  @@map("inscriptions")
+}
+
+model Payment {
+  id             String         @id @default(cuid())
+  montant        Float
+  type           TypePaiement
+  statut         StatutPaiement @default(en_attente)
+  modePaiement   String?
+  reference      String?        @unique @default(cuid())
+  description    String?
+  recu           String?
+  studentId      String?
+  inscriptionId  String?        @unique
+  confirmedAt    DateTime?
+  confirmedBy    String?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  student     Student?     @relation(fields: [studentId], references: [id])
+  inscription Inscription? @relation(fields: [inscriptionId], references: [id])
+
+  @@map("payments")
+}
+
+model Grade {
+  id         String    @id @default(cuid())
+  matiere    String
+  note       Float
+  noteMax    Float     @default(20)
+  coefficient Float    @default(1)
+  trimestre  Trimestre
+  commentaire String?
+  studentId  String
+  teacherId  String?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  student Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  teacher Teacher? @relation(fields: [teacherId], references: [id])
+
+  @@map("grades")
+}
+
+model Schedule {
+  id        String   @id @default(cuid())
+  jour      String
+  heureDebut String
+  heureFin  String
+  matiere   String
+  classe    String
+  salle     String?
+  teacherId String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  teacher Teacher? @relation(fields: [teacherId], references: [id])
+
+  @@map("schedules")
+}
+
+model Announcement {
+  id           String   @id @default(cuid())
+  titre        String
+  contenu      String
+  destinataire String
+  priorite     String   @default("normale")
+  published    Boolean  @default(true)
+  authorId     String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  author User @relation(fields: [authorId], references: [id])
+
+  @@map("announcements")
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  nom       String
+  email     String
+  telephone String?
+  sujet     String
+  message   String
+  lu        Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@map("contact_messages")
+}
