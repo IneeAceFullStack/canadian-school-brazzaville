@@ -83,23 +83,3 @@ export default function Navbar() {
     </header>
   )
 }
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2025-12-20T09:15:00 - fix: la navbar ne se fermait pas sur mobile apres navigation
-# 2026-04-02T09:15:00 - fix: la couleur primaire n'etait pas appliquee sur la navbar
-# 2026-04-03T11:00:00 - feat: logo de l'ecole integre dans la navbar
-# 2026-04-07T09:00:00 - fix: le menu mobile ne se fermait pas correctement
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2025-12-20T09:15:00 - fix: la navbar ne se fermait pas sur mobile apres navigation
-# 2026-04-02T09:15:00 - fix: la couleur primaire n'etait pas appliquee sur la navbar
-# 2026-04-03T11:00:00 - feat: logo de l'ecole integre dans la navbar
-# 2026-04-07T09:00:00 - fix: le menu mobile ne se fermait pas correctement
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2025-12-20T09:15:00 - fix: la navbar ne se fermait pas sur mobile apres navigation
-# 2026-04-02T09:15:00 - fix: la couleur primaire n'etait pas appliquee sur la navbar
-# 2026-04-03T11:00:00 - feat: logo de l'ecole integre dans la navbar
-# 2026-04-07T09:00:00 - fix: le menu mobile ne se fermait pas correctement
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2025-12-20T09:15:00 - fix: la navbar ne se fermait pas sur mobile apres navigation
-# 2026-04-02T09:15:00 - fix: la couleur primaire n'etait pas appliquee sur la navbar
-# 2026-04-03T11:00:00 - feat: logo de l'ecole integre dans la navbar
-# 2026-04-07T09:00:00 - fix: le menu mobile ne se fermait pas correctement

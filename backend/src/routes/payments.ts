@@ -70,19 +70,3 @@ router.get('/stats', async (_req: AuthRequest, res: Response) => {
 })
 
 export default router
-# 2025-11-27T09:45:00 - feat: gestion des paiements - creation et confirmation
-# 2026-02-09T10:30:00 - refactor: optimisation des requetes Prisma avec select explicite
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-11-27T09:45:00 - feat: gestion des paiements - creation et confirmation
-# 2026-02-09T10:30:00 - refactor: optimisation des requetes Prisma avec select explicite
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-11-27T09:45:00 - feat: gestion des paiements - creation et confirmation
-# 2026-02-09T10:30:00 - refactor: optimisation des requetes Prisma avec select explicite
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-11-27T09:45:00 - feat: gestion des paiements - creation et confirmation
-# 2026-02-09T10:30:00 - refactor: optimisation des requetes Prisma avec select explicite
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API

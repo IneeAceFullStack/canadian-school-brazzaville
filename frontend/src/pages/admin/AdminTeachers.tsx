@@ -125,11 +125,3 @@ export default function AdminTeachers() {
     </div>
   )
 }
-# 2025-11-22T09:00:00 - feat: CRUD enseignants
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2025-11-22T09:00:00 - feat: CRUD enseignants
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2025-11-22T09:00:00 - feat: CRUD enseignants
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2025-11-22T09:00:00 - feat: CRUD enseignants
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin

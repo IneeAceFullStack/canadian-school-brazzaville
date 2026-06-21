@@ -134,7 +134,3 @@ export default function AdminAnnouncements() {
     </div>
   )
 }
-# 2025-12-08T10:00:00 - feat: systeme d'annonces - creation et publication
-# 2025-12-08T10:00:00 - feat: systeme d'annonces - creation et publication
-# 2025-12-08T10:00:00 - feat: systeme d'annonces - creation et publication
-# 2025-12-08T10:00:00 - feat: systeme d'annonces - creation et publication

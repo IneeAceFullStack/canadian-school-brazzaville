@@ -64,11 +64,3 @@ router.put('/:id/status', authenticate, authorize('admin'), async (req: AuthRequ
 })
 
 export default router
-# 2025-11-25T09:30:00 - feat: gestion des inscriptions - nouvelle inscription multi-etapes
-# 2025-11-25T15:00:00 - feat: gestion des reinscriptions avec recherche de l'eleve
-# 2025-11-25T09:30:00 - feat: gestion des inscriptions - nouvelle inscription multi-etapes
-# 2025-11-25T15:00:00 - feat: gestion des reinscriptions avec recherche de l'eleve
-# 2025-11-25T09:30:00 - feat: gestion des inscriptions - nouvelle inscription multi-etapes
-# 2025-11-25T15:00:00 - feat: gestion des reinscriptions avec recherche de l'eleve
-# 2025-11-25T09:30:00 - feat: gestion des inscriptions - nouvelle inscription multi-etapes
-# 2025-11-25T15:00:00 - feat: gestion des reinscriptions avec recherche de l'eleve

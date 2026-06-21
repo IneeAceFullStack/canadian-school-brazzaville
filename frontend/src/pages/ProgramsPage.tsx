@@ -112,15 +112,3 @@ export default function ProgramsPage() {
     </div>
   )
 }
-# 2025-12-18T11:00:00 - feat: page Programmes - Maternelle au Lycee avec specialites
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-05-08T09:00:00 - style: amelioration de la page Programmes - niveaux et specialites
-# 2025-12-18T11:00:00 - feat: page Programmes - Maternelle au Lycee avec specialites
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-05-08T09:00:00 - style: amelioration de la page Programmes - niveaux et specialites
-# 2025-12-18T11:00:00 - feat: page Programmes - Maternelle au Lycee avec specialites
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-05-08T09:00:00 - style: amelioration de la page Programmes - niveaux et specialites
-# 2025-12-18T11:00:00 - feat: page Programmes - Maternelle au Lycee avec specialites
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-05-08T09:00:00 - style: amelioration de la page Programmes - niveaux et specialites

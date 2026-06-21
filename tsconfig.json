@@ -1,4 +1,21 @@
-# 2025-11-06T09:12:00 - init: initialisation du projet React + Vite + Express
-# 2025-11-06T09:12:00 - init: initialisation du projet React + Vite + Express
-# 2025-11-06T09:12:00 - init: initialisation du projet React + Vite + Express
-# 2025-11-06T09:12:00 - init: initialisation du projet React + Vite + Express
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

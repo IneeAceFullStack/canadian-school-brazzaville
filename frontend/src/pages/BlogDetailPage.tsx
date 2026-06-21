@@ -38,7 +38,4 @@ export default function BlogDetailPage() {
       <p className="text-gray-600 leading-relaxed text-lg">{article.extrait}</p>
     </div>
   )
-}# 2026-01-08T10:00:00 - feat: page detail d'un article
-# 2026-01-08T10:00:00 - feat: page detail d'un article
-# 2026-01-08T10:00:00 - feat: page detail d'un article
-# 2026-01-08T10:00:00 - feat: page detail d'un article
+}

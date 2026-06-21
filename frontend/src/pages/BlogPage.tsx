@@ -69,7 +69,4 @@ export default function BlogPage() {
      </section>
    </div>
  )
-}# 2026-01-07T11:15:00 - feat: page Actualites avec liste d'articles
-# 2026-01-07T11:15:00 - feat: page Actualites avec liste d'articles
-# 2026-01-07T11:15:00 - feat: page Actualites avec liste d'articles
-# 2026-01-07T11:15:00 - feat: page Actualites avec liste d'articles
+}

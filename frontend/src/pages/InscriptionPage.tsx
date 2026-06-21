@@ -207,15 +207,3 @@ export default function InscriptionPage() {
     </div>
   )
 }
-# 2026-01-05T10:00:00 - feat: page Inscription publique - formulaire 4 etapes
-# 2026-01-09T09:45:00 - fix: le formulaire d'inscription ne validait pas le champ email
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle
-# 2026-01-05T10:00:00 - feat: page Inscription publique - formulaire 4 etapes
-# 2026-01-09T09:45:00 - fix: le formulaire d'inscription ne validait pas le champ email
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle
-# 2026-01-05T10:00:00 - feat: page Inscription publique - formulaire 4 etapes
-# 2026-01-09T09:45:00 - fix: le formulaire d'inscription ne validait pas le champ email
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle
-# 2026-01-05T10:00:00 - feat: page Inscription publique - formulaire 4 etapes
-# 2026-01-09T09:45:00 - fix: le formulaire d'inscription ne validait pas le champ email
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle

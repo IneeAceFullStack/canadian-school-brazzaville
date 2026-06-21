@@ -194,39 +194,4 @@ export default function AdminPayments() {
      </div>
    </div>
  )
-}# 2025-11-28T14:30:00 - feat: generation de recu PDF avec jsPDF
-# 2025-11-29T10:00:00 - fix: le PDF generait une erreur si la reference etait vide
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-05T10:00:00 - feat: recherche et filtres sur les paiements
-# 2026-02-10T09:00:00 - fix: le formulaire de paiement ne se resetait pas apres soumission
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-14T10:00:00 - fix: le filtre par statut de paiement ne fonctionnait pas
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-06-07T10:15:00 - fix: correction de l'affichage des montants en FCFA
-# 2025-11-28T14:30:00 - feat: generation de recu PDF avec jsPDF
-# 2025-11-29T10:00:00 - fix: le PDF generait une erreur si la reference etait vide
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-05T10:00:00 - feat: recherche et filtres sur les paiements
-# 2026-02-10T09:00:00 - fix: le formulaire de paiement ne se resetait pas apres soumission
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-14T10:00:00 - fix: le filtre par statut de paiement ne fonctionnait pas
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-06-07T10:15:00 - fix: correction de l'affichage des montants en FCFA
-# 2025-11-28T14:30:00 - feat: generation de recu PDF avec jsPDF
-# 2025-11-29T10:00:00 - fix: le PDF generait une erreur si la reference etait vide
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-05T10:00:00 - feat: recherche et filtres sur les paiements
-# 2026-02-10T09:00:00 - fix: le formulaire de paiement ne se resetait pas apres soumission
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-14T10:00:00 - fix: le filtre par statut de paiement ne fonctionnait pas
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-06-07T10:15:00 - fix: correction de l'affichage des montants en FCFA
-# 2025-11-28T14:30:00 - feat: generation de recu PDF avec jsPDF
-# 2025-11-29T10:00:00 - fix: le PDF generait une erreur si la reference etait vide
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-05T10:00:00 - feat: recherche et filtres sur les paiements
-# 2026-02-10T09:00:00 - fix: le formulaire de paiement ne se resetait pas apres soumission
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-14T10:00:00 - fix: le filtre par statut de paiement ne fonctionnait pas
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-06-07T10:15:00 - fix: correction de l'affichage des montants en FCFA
+}

@@ -33,7 +33,3 @@ router.put('/:id/read', authenticate, authorize('admin'), async (req: AuthReques
 })
 
 export default router
-# 2025-12-09T09:15:00 - feat: formulaire de contact public
-# 2025-12-09T09:15:00 - feat: formulaire de contact public
-# 2025-12-09T09:15:00 - feat: formulaire de contact public
-# 2025-12-09T09:15:00 - feat: formulaire de contact public

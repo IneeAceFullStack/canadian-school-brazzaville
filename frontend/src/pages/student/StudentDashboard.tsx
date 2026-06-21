@@ -124,7 +124,3 @@ export default function StudentDashboard() {
     </div>
   )
 }
-# 2025-12-04T11:00:00 - feat: dashboard eleve - notes et emploi du temps
-# 2025-12-04T11:00:00 - feat: dashboard eleve - notes et emploi du temps
-# 2025-12-04T11:00:00 - feat: dashboard eleve - notes et emploi du temps
-# 2025-12-04T11:00:00 - feat: dashboard eleve - notes et emploi du temps

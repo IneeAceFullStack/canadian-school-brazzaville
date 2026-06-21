@@ -41,11 +41,3 @@ export const authorize = (...roles: string[]) => {
     next()
   }
 }
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-13T15:50:00 - feat: middleware de verification des roles (admin, teacher, student)
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-13T15:50:00 - feat: middleware de verification des roles (admin, teacher, student)
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-13T15:50:00 - feat: middleware de verification des roles (admin, teacher, student)
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-13T15:50:00 - feat: middleware de verification des roles (admin, teacher, student)

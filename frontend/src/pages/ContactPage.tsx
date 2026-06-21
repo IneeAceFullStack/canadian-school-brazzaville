@@ -117,19 +117,3 @@ export default function ContactPage() {
     </div>
   )
 }
-# 2025-12-09T09:15:00 - feat: formulaire de contact public
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-04-10T09:30:00 - style: amelioration de la page Contact - carte et reseaux sociaux
-# 2026-05-11T10:15:00 - fix: le formulaire de contact ne reinitialise pas apres envoi
-# 2025-12-09T09:15:00 - feat: formulaire de contact public
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-04-10T09:30:00 - style: amelioration de la page Contact - carte et reseaux sociaux
-# 2026-05-11T10:15:00 - fix: le formulaire de contact ne reinitialise pas apres envoi
-# 2025-12-09T09:15:00 - feat: formulaire de contact public
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-04-10T09:30:00 - style: amelioration de la page Contact - carte et reseaux sociaux
-# 2026-05-11T10:15:00 - fix: le formulaire de contact ne reinitialise pas apres envoi
-# 2025-12-09T09:15:00 - feat: formulaire de contact public
-# 2026-01-10T14:30:00 - style: responsive mobile sur toutes les pages publiques
-# 2026-04-10T09:30:00 - style: amelioration de la page Contact - carte et reseaux sociaux
-# 2026-05-11T10:15:00 - fix: le formulaire de contact ne reinitialise pas apres envoi

@@ -13,7 +13,3 @@ export default defineConfig({
     },
   },
 })
-# 2025-11-07T10:05:00 - chore: mise en place de la structure frontend/backend
-# 2025-11-07T10:05:00 - chore: mise en place de la structure frontend/backend
-# 2025-11-07T10:05:00 - chore: mise en place de la structure frontend/backend
-# 2025-11-07T10:05:00 - chore: mise en place de la structure frontend/backend

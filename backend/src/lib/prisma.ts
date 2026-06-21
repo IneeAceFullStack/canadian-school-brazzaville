@@ -11,7 +11,3 @@ export const prisma =
 if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma
 
 export default prisma
-# 2025-11-08T11:15:00 - feat: configuration Prisma et connexion PostgreSQL
-# 2025-11-08T11:15:00 - feat: configuration Prisma et connexion PostgreSQL
-# 2025-11-08T11:15:00 - feat: configuration Prisma et connexion PostgreSQL
-# 2025-11-08T11:15:00 - feat: configuration Prisma et connexion PostgreSQL

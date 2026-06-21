@@ -64,7 +64,3 @@ export default function StudentSchedule() {
     </div>
   )
 }
-# 2025-12-06T14:20:00 - feat: emploi du temps de l'eleve
-# 2025-12-06T14:20:00 - feat: emploi du temps de l'eleve
-# 2025-12-06T14:20:00 - feat: emploi du temps de l'eleve
-# 2025-12-06T14:20:00 - feat: emploi du temps de l'eleve

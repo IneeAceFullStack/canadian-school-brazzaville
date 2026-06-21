@@ -56,19 +56,3 @@ export function useAuth() {
   if (!ctx) throw new Error('useAuth must be used within AuthProvider')
   return ctx
 }
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-01-13T09:15:00 - fix: redirection incorrecte apres login selon le role
-# 2026-05-13T11:00:00 - feat: protection des routes privees - redirection si non connecte
-# 2026-05-14T10:00:00 - fix: l'utilisateur restait connecte apres expiration du token
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-01-13T09:15:00 - fix: redirection incorrecte apres login selon le role
-# 2026-05-13T11:00:00 - feat: protection des routes privees - redirection si non connecte
-# 2026-05-14T10:00:00 - fix: l'utilisateur restait connecte apres expiration du token
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-01-13T09:15:00 - fix: redirection incorrecte apres login selon le role
-# 2026-05-13T11:00:00 - feat: protection des routes privees - redirection si non connecte
-# 2026-05-14T10:00:00 - fix: l'utilisateur restait connecte apres expiration du token
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-01-13T09:15:00 - fix: redirection incorrecte apres login selon le role
-# 2026-05-13T11:00:00 - feat: protection des routes privees - redirection si non connecte
-# 2026-05-14T10:00:00 - fix: l'utilisateur restait connecte apres expiration du token

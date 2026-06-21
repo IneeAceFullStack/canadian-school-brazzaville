@@ -68,7 +68,3 @@ export default function TeacherDashboard() {
     </div>
   )
 }
-# 2026-03-13T09:45:00 - feat: dashboard enseignant avec stats classes et notes recentes
-# 2026-03-13T09:45:00 - feat: dashboard enseignant avec stats classes et notes recentes
-# 2026-03-13T09:45:00 - feat: dashboard enseignant avec stats classes et notes recentes
-# 2026-03-13T09:45:00 - feat: dashboard enseignant avec stats classes et notes recentes

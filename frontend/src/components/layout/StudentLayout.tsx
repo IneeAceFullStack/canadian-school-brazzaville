@@ -41,11 +41,3 @@ export default function StudentLayout() {
     </div>
   )
 }
-# 2025-11-19T15:40:00 - feat: layouts Student et Teacher
-# 2026-06-05T09:30:00 - refactor: derniers ajustements sur les layouts mobile
-# 2025-11-19T15:40:00 - feat: layouts Student et Teacher
-# 2026-06-05T09:30:00 - refactor: derniers ajustements sur les layouts mobile
-# 2025-11-19T15:40:00 - feat: layouts Student et Teacher
-# 2026-06-05T09:30:00 - refactor: derniers ajustements sur les layouts mobile
-# 2025-11-19T15:40:00 - feat: layouts Student et Teacher
-# 2026-06-05T09:30:00 - refactor: derniers ajustements sur les layouts mobile

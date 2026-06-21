@@ -169,39 +169,3 @@ export default function AdminStudents() {
     </div>
   )
 }
-# 2025-11-21T10:30:00 - feat: CRUD eleves - creation, liste et recherche
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-04T11:00:00 - feat: pagination sur la liste des eleves
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-09T10:00:00 - fix: les dates s'affichaient en format ISO dans les tableaux
-# 2026-04-13T11:00:00 - feat: affichage du solde restant du par eleve
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2025-11-21T10:30:00 - feat: CRUD eleves - creation, liste et recherche
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-04T11:00:00 - feat: pagination sur la liste des eleves
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-09T10:00:00 - fix: les dates s'affichaient en format ISO dans les tableaux
-# 2026-04-13T11:00:00 - feat: affichage du solde restant du par eleve
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2025-11-21T10:30:00 - feat: CRUD eleves - creation, liste et recherche
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-04T11:00:00 - feat: pagination sur la liste des eleves
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-09T10:00:00 - fix: les dates s'affichaient en format ISO dans les tableaux
-# 2026-04-13T11:00:00 - feat: affichage du solde restant du par eleve
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2025-11-21T10:30:00 - feat: CRUD eleves - creation, liste et recherche
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-02-04T11:00:00 - feat: pagination sur la liste des eleves
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2026-04-09T10:00:00 - fix: les dates s'affichaient en format ISO dans les tableaux
-# 2026-04-13T11:00:00 - feat: affichage du solde restant du par eleve
-# 2026-05-15T09:15:00 - refactor: amelioration des messages de toast - succes et erreurs
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles

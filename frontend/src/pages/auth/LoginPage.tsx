@@ -91,15 +91,3 @@ export default function LoginPage() {
     </div>
   )
 }
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-02-11T14:00:00 - style: amelioration de la page de connexion
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-02-11T14:00:00 - style: amelioration de la page de connexion
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-02-11T14:00:00 - style: amelioration de la page de connexion
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion
-# 2025-11-18T09:30:00 - feat: page de connexion avec formulaire et gestion des roles
-# 2026-02-11T14:00:00 - style: amelioration de la page de connexion
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion

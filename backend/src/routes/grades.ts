@@ -62,15 +62,3 @@ router.delete('/:id', authorize('admin', 'teacher'), async (req: AuthRequest, re
 })
 
 export default router
-# 2025-12-01T09:20:00 - feat: gestion des notes par matiere et trimestre
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-12-01T09:20:00 - feat: gestion des notes par matiere et trimestre
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-12-01T09:20:00 - feat: gestion des notes par matiere et trimestre
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-12-01T09:20:00 - feat: gestion des notes par matiere et trimestre
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API

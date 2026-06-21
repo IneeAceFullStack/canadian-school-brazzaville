@@ -142,7 +142,3 @@ export default function TeacherGrades() {
     </div>
   )
 }
-# 2025-12-02T10:30:00 - feat: saisie des notes par l'enseignant
-# 2025-12-02T10:30:00 - feat: saisie des notes par l'enseignant
-# 2025-12-02T10:30:00 - feat: saisie des notes par l'enseignant
-# 2025-12-02T10:30:00 - feat: saisie des notes par l'enseignant

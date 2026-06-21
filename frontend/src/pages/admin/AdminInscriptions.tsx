@@ -133,15 +133,3 @@ export default function AdminInscriptions() {
     </div>
   )
 }
-# 2025-11-26T10:00:00 - feat: page admin inscriptions avec filtres et statuts
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2025-11-26T10:00:00 - feat: page admin inscriptions avec filtres et statuts
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2025-11-26T10:00:00 - feat: page admin inscriptions avec filtres et statuts
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin
-# 2025-11-26T10:00:00 - feat: page admin inscriptions avec filtres et statuts
-# 2026-02-03T09:30:00 - style: uniformisation des badges de statut dans l'interface admin
-# 2026-04-06T10:30:00 - style: responsive mobile - corrections sur les pages admin

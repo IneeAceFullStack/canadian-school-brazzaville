@@ -65,11 +65,3 @@ export default function Footer() {
     </footer>
   )
 }
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion
-# 2025-11-20T09:15:00 - feat: Navbar et Footer du site public
-# 2026-06-03T14:30:00 - style: ajout du logo dans le footer et la page de connexion

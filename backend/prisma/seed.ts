@@ -127,15 +127,3 @@ async function main() {
 }
 
 main().catch(console.error).finally(() => prisma.$disconnect())
-# 2026-01-15T10:30:00 - feat: seed de la base de donnees avec comptes de demonstration
-# 2026-01-16T09:00:00 - fix: le seed echouait si la base n'etait pas vide
-# 2026-06-04T10:00:00 - fix: le seed inserait des doublons si relance plusieurs fois
-# 2026-01-15T10:30:00 - feat: seed de la base de donnees avec comptes de demonstration
-# 2026-01-16T09:00:00 - fix: le seed echouait si la base n'etait pas vide
-# 2026-06-04T10:00:00 - fix: le seed inserait des doublons si relance plusieurs fois
-# 2026-01-15T10:30:00 - feat: seed de la base de donnees avec comptes de demonstration
-# 2026-01-16T09:00:00 - fix: le seed echouait si la base n'etait pas vide
-# 2026-06-04T10:00:00 - fix: le seed inserait des doublons si relance plusieurs fois
-# 2026-01-15T10:30:00 - feat: seed de la base de donnees avec comptes de demonstration
-# 2026-01-16T09:00:00 - fix: le seed echouait si la base n'etait pas vide
-# 2026-06-04T10:00:00 - fix: le seed inserait des doublons si relance plusieurs fois

@@ -214,11 +214,3 @@ export default function ReinscriptionPage() {
     </div>
   )
 }
-# 2026-01-06T09:30:00 - feat: page Reinscription - recherche eleve et confirmation
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle
-# 2026-01-06T09:30:00 - feat: page Reinscription - recherche eleve et confirmation
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle
-# 2026-01-06T09:30:00 - feat: page Reinscription - recherche eleve et confirmation
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle
-# 2026-01-06T09:30:00 - feat: page Reinscription - recherche eleve et confirmation
-# 2026-04-15T09:15:00 - style: amelioration des formulaires - validation visuelle

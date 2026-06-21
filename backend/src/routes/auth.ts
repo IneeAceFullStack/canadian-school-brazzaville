@@ -88,27 +88,3 @@ router.put('/change-password', authenticate, async (req: AuthRequest, res: Respo
 })
 
 export default router
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-14T10:20:00 - feat: route /me et changement de mot de passe
-# 2025-11-15T09:00:00 - fix: le token JWT n'incluait pas le role utilisateur
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-14T10:20:00 - feat: route /me et changement de mot de passe
-# 2025-11-15T09:00:00 - fix: le token JWT n'incluait pas le role utilisateur
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-14T10:20:00 - feat: route /me et changement de mot de passe
-# 2025-11-15T09:00:00 - fix: le token JWT n'incluait pas le role utilisateur
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API
-# 2025-11-13T09:15:00 - feat: authentification JWT - login et verification du token
-# 2025-11-14T10:20:00 - feat: route /me et changement de mot de passe
-# 2025-11-15T09:00:00 - fix: le token JWT n'incluait pas le role utilisateur
-# 2026-02-13T09:30:00 - chore: nettoyage des console.log et code mort
-# 2026-05-28T10:00:00 - refactor: nettoyage final du code - suppression des imports inutiles
-# 2026-06-02T09:15:00 - chore: verification finale de tous les endpoints API

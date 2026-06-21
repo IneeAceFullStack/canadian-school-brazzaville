@@ -37,11 +37,3 @@ router.get('/', async (_req: AuthRequest, res: Response) => {
 })
 
 export default router
-# 2025-12-10T11:30:00 - feat: statistiques dashboard admin - eleves, paiements, inscriptions
-# 2025-12-12T10:00:00 - fix: le calcul du taux d'inscription etait incorrect
-# 2025-12-10T11:30:00 - feat: statistiques dashboard admin - eleves, paiements, inscriptions
-# 2025-12-12T10:00:00 - fix: le calcul du taux d'inscription etait incorrect
-# 2025-12-10T11:30:00 - feat: statistiques dashboard admin - eleves, paiements, inscriptions
-# 2025-12-12T10:00:00 - fix: le calcul du taux d'inscription etait incorrect
-# 2025-12-10T11:30:00 - feat: statistiques dashboard admin - eleves, paiements, inscriptions
-# 2025-12-12T10:00:00 - fix: le calcul du taux d'inscription etait incorrect
