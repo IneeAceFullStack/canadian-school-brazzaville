@@ -10,7 +10,7 @@ interface Student {
 }
 
 const CLASSES = ['Maternelle PS','Maternelle MS','Maternelle GS','CP','CE1','CE2','CM1','CM2','6ème','5ème','4ème','3ème','2nde','1ère','Terminale']
-const EMPTY: Omit<Student,'id'|'idVie'|'statut'> & Record<string,string> = {
+const EMPTY: Record<string, any> = {
   nomComplet:'', classeActuelle:'', sexe:'M', dateNaissance:'', lieuNaissance:'', nationalite:'Congolaise', anneeScolaire:'2024-2025', statut:'actif'
 }
 
@@ -22,7 +22,7 @@ export default function AdminStudents() {
   const [classeFilter, setClasseFilter] = useState('')
   const [showModal, setShowModal] = useState(false)
   const [editing, setEditing] = useState<Student | null>(null)
-  const [form, setForm] = useState<Record<string, string>>(EMPTY)
+  const [form, setForm] = useState<Record<string, any>>(EMPTY)
 
   const load = useCallback(async () => {
     setLoading(true)
