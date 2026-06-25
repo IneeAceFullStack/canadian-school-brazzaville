@@ -632,11 +632,9 @@ These are improvements I'd make if the project were to continue in active develo
 **Pascale Perspicasse Destinée OLOLO**  
 Full-Stack Developer — Node.js · React · PostgreSQL
 
-📧 \[ololoppd@gmail.com](mailto:ololoppd@gmail.com)
-🔗 \[*LinkedIn Profile](https://www.linkedin.com/in/pascale-perspicassee-destinée-ololo-07474b374)*
-🐙 *\[GitHub](https://github.com/IneeAceFullStack)*
-
-
+📧 [ololoppd@gmail.com](mailto:ololoppd@gmail.com)
+🔗 [Pascale Perspicasse Destinée OLOLO](https://www.linkedin.com/in/pascale-perspicasse-destinée-ololo-07474b374)*
+🐙 [IneeAceFullStack](https://github.com/IneeAceFullStack)*
 
 \---
 

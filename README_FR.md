@@ -648,8 +648,8 @@ Ce projet illustre la capacité à :
 Développeuse Full-Stack — Node.js · React · PostgreSQL  
 
 📧 [ololoppd@gmail.com](mailto:ololoppd@gmail.com)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/pascale-perspicasse-destinée-ololo-07474b374)  
-🐙 [GitHub](https://github.com/IneeAceFullStack)  
+🔗 [Pascale Pesrpicasse Destinée OLOLO](https://www.linkedin.com/in/pascale-perspicasse-destinée-ololo-07474b374)  
+🐙 [IneeAceFullStack](https://github.com/IneeAceFullStack)  
 
 ---
 
