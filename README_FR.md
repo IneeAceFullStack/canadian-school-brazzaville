@@ -498,8 +498,8 @@ L'authentification repose entièrement sur des tokens JWT stockés en localStora
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/votre-username/ecole-canadienne.git
-cd ecole-canadienne
+git clone https://github.com/IneeAceFullStack/canadian-school-brazzaville.git
+cd canadian-school-brazzaville
 
 # 2. Installer les dépendances frontend
 cd frontend && npm install
@@ -653,4 +653,4 @@ Développeuse Full-Stack — Node.js · React · PostgreSQL
 
 ---
 
-*Projet développé entre novembre 2025 et juin 2026. La version 1.0.0 est prête pour un déploiement local en production.*
+*Projet développé entre novembre 2025 et juin 2026. La version 1.0.0 est prête pour la production et en ligne sur [canadian-school-brazzaville.vercel.app](https://canadian-school-brazzaville.vercel.app) .*
